@@ -1,0 +1,27 @@
+{
+  "name": "Mew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTV1994/learn-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BTV1994/learn-bootstrap/issues"
+  },
+  "homepage": "https://github.com/BTV1994/learn-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1"
+  }
+}
