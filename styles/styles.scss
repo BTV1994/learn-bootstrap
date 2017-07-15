@@ -6,3 +6,49 @@
   color: #999;
   font-size: 134px;
 }
+
+body {
+  background-color: #ededed !important;
+}
+
+.main-col {
+  border: 1px solid #dedede;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0,0,0,.12);
+}
+
+header {
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    li {
+      height: 40px;
+      border: 1px solid #333;
+      background: #dedede;
+      flex: 1 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.main {
+  height: 200px;
+  width: 100%;
+  background: #444;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0,0,0,.13);
+}
+
+@media screen and (min-width: 480px) {
+  .main {
+    background: #dedede;
+  }
+}
